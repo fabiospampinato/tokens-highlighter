@@ -1,0 +1,32 @@
+{
+  "name": "tokens-highlighter",
+  "repository": "github:fabiospampinato/tokens-highlighter",
+  "description": "A general syntax highlighter that can render syntax highlighting tokens.",
+  "version": "1.0.0",
+  "type": "module",
+  "sideEffects": false,
+  "main": "dist/index.js",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "clean": "tsex clean",
+    "compile": "tsex compile",
+    "compile:watch": "tsex compile --watch",
+    "demo": "vite demo",
+    "prepublishOnly": "tsex prepare"
+  },
+  "keywords": [
+    "abstract",
+    "tokens",
+    "syntax",
+    "highlighter"
+  ],
+  "dependencies": {
+    "kasi": "^1.1.0"
+  },
+  "devDependencies": {
+    "tsex": "^3.0.2",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.3"
+  }
+}

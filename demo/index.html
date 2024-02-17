@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Tokens Highlighter</title>
+    <style type="text/css">
+      .container {
+        border: 1px solid black;
+      }
+      pre {
+        margin: 0;
+      }
+      ::selection {
+        background-color: #1B6EF355;
+      }
+    </style>
+  </head>
+  <body>
+    <script type="module" src="./index.ts"></script>
+    <h3>HTML</h3>
+    <div id="output-html" class="container"></div>
+    <h3>DOM</h3>
+    <div id="output-dom" class="container"></div>
+    <h3>Highlights</h3>
+    <div id="output-highlights" class="container"></div>
+    <h3>String</h3>
+    <pre id="output-string" class="container"></pre>
+  </body>
+</html>
