@@ -11,7 +11,7 @@ A general syntax highlighter that can render syntax highlighting tokens.
 ## Install
 
 ```sh
-npm install --save tokens-highlighter
+npm install tokens-highlighter
 ```
 
 ## Usage
