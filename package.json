@@ -23,11 +23,11 @@
     "highlighter"
   ],
   "dependencies": {
-    "kasi": "^1.1.0"
+    "kasi": "^2.0.1"
   },
   "devDependencies": {
-    "tsex": "^3.0.2",
-    "typescript": "^5.3.3",
-    "vite": "^5.1.3"
+    "tsex": "^3.2.1",
+    "typescript": "^5.9.3",
+    "vite": "^5.4.21"
   }
 }
